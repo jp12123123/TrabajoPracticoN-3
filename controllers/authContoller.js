@@ -41,7 +41,7 @@ exports.login = async (req, res)=>{
                alertMessage:"Ingrese un usuario y contraseña",
                alertIcon:'info',
                showConfirmButton:true,
-               timer:false,
+               timer:100000,
                ruta:'login'
              
 
@@ -56,7 +56,7 @@ exports.login = async (req, res)=>{
                   alertMessage:"Usuario y contraseña incorrecto",
                   alertIcon:'error',
                   showConfirmButton:true,
-                  timer:false,
+                  timer:100000,
                   ruta:'login'
                 
    
